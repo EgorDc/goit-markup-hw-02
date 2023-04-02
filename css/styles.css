@@ -31,6 +31,7 @@
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #2E2F42;
+    text-decoration: none;
 }
 
 .link-aitem:active,
@@ -38,12 +39,6 @@
 .link-aitem:hover {
     color: #404BBF;
 }
-
-.contacts {
-    font-style: none;
-    text-decoration: none;
-}
-     
 .contacts-aitem {
     font-weight: 400;
     font-size: 16px;
@@ -54,7 +49,9 @@
     font-style: normal;
 }
 
-.contacts-aitem:active {
+.contacts-aitem:active,
+.contacts-aitem:hover,
+.contacts-aitem:focus {
     color: #404BBF;
 }  
    
