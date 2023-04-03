@@ -1,12 +1,21 @@
+:root {
+    --text-color: #2E2F42;
+    --accent-color: #404BBF;
+    --text-section-color: #434455;
+
+}
+
 .body {
     font-family: Roboto, sans-serif;
     font-size: normal;
     font-weight: 500;
     font-size: 14px;
     line-height: 140%;
-    color: #434455;
+    color: var(--text-section-color);
 }
-
+ul {
+    list-style: none;
+}
 /*header*/
 /*logo*/
 .logo {
@@ -23,28 +32,28 @@
     text-decoration: none;
 }
 .logo-nav {
-    color: #2E2F42;
+    color: var(--text-color);
 }
 .link-aitem {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: #2E2F42;
+    color: var(--text-color);
     text-decoration: none;
 }
 
 .link-aitem:active,
 .link-aitem:focus,
 .link-aitem:hover {
-    color: #404BBF;
+    color: var(--accent-color);
 }
 .contacts-aitem {
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: #434455;
+    color: var(--text-section-color);
     text-decoration: none;
     font-style: normal;
 }
@@ -52,7 +61,7 @@
 .contacts-aitem:active,
 .contacts-aitem:hover,
 .contacts-aitem:focus {
-    color: #404BBF;
+    color: var(--accent-color);
 }  
    
 /*main*/
@@ -64,7 +73,7 @@
     text-align: center;
     letter-spacing: 0.02em;
     color: #FFFFFF;
-    background: #2E2F42;
+    background: var(--text-color);
 }
 .modal-button {
     font-weight: 500;
@@ -78,7 +87,7 @@
 }
 .modal-button:hover,
 .modal-button:focus {
-    background: #404BBF;
+    background: var(--accent-color);
 }
     
 .heading {
@@ -88,7 +97,7 @@
     text-align: center;
     letter-spacing: 0.02em;
     text-transform: capitalize;
-    color: #2E2F42;
+    color: var(--text-color);
 }
     
 /*section feature*/
@@ -100,13 +109,13 @@
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
-    color: #2E2F42;
+    color: var(--text-color);
 }
 .feature-text {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: #434455;
+    color: var(--text-section-color);
     }
 
 /*section skills*/
@@ -117,18 +126,18 @@
     line-height: 1.2;
     text-align: center;
     letter-spacing: 0.02em;
-    color: #2E2F42;
+    color: var(--text-color);
 }
 .card-text {
     font-size: 16px;
     line-height: 1.5;
     text-align: center;
     letter-spacing: 0.02em;
-    color: #434455;
+    color: var(--text-section-color);
 }
 /*footer*/
 .footer {
-    background: #2E2F42;
+    background: var(--text-color);
 }
 .logo-footer {
     color: #F4F4FD;
@@ -154,7 +163,7 @@
 .button-filters:focus {
     cursor: pointer;
     color: #FFFFFF;
-    background: #404BBF;
+    background: var(--accent-color);
 }
 .cards-our {
     text-decoration: none;
@@ -164,11 +173,11 @@
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
-    color: #2E2F42;
+    color: var(--text-color);
 }
 .cards-type {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: #434455;
+    color: var(--text-section-color);
 }
