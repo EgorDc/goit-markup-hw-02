@@ -1,29 +1,32 @@
 :root {
     --text-color: #2E2F42;
     --accent-color: #404BBF;
-    --text-section-color: #434455;
+    --background-color: #FFFFFF;
+    --paragraf-color: #434455;
 
 }
 
 .body {
-    font-family: Roboto, sans-serif;
+    font-family: "Roboto", sans-serif;
     font-size: normal;
     font-weight: 500;
     font-size: 14px;
     line-height: 140%;
-    color: var(--text-section-color);
+    color: var(paragraf-color);
+    background-color: var(--background-color);
 }
 ul {
     list-style: none;
 }
 /*header*/
+
 /*logo*/
 .logo {
-    font-family: 'Raleway';
+    font-family: "Raleway", sans-serif;
     font-style: normal;
     font-weight: 800;
     font-size: 18px;
-    line-height: 1.16;
+    line-height: 1.17;
     display: flex;
     align-items: center;
     letter-spacing: 0.03em;
@@ -33,6 +36,9 @@ ul {
 }
 .logo-nav {
     color: var(--text-color);
+}
+.link {
+    text-decoration: none;
 }
 .link-aitem {
     font-weight: 500;
@@ -53,7 +59,7 @@ ul {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: var(--text-section-color);
+    color: var(--paragraf-color);
     text-decoration: none;
     font-style: normal;
 }
@@ -66,24 +72,29 @@ ul {
    
 /*main*/
 /*section site header*/
+.header {
+    background-color: var(--text-color);
+}
 .slogan {
     font-weight: 700;
     font-size: 56px;
-    line-height: 1.1;
+    line-height: 1.07;
     text-align: center;
     letter-spacing: 0.02em;
-    color: #FFFFFF;
+    color: var(--background-color);
     background: var(--text-color);
 }
 .modal-button {
+    font-family: "Roboto", sans-serif;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     display: flex;
     align-items: center;
     letter-spacing: 0.04em;
-    color: #FFFFFF;
+    color: var(--background-color);
     background: #4D5AE5;
+    cursor: pointer;
 }
 .modal-button:hover,
 .modal-button:focus {
@@ -93,7 +104,7 @@ ul {
 .heading {
     font-weight: 700;
     font-size: 36px;
-    line-height: 1.2;
+    line-height: 1.11;
     text-align: center;
     letter-spacing: 0.02em;
     text-transform: capitalize;
@@ -104,6 +115,9 @@ ul {
 .feature {
     visibility: hidden;
 } 
+.list {
+    list-style: none;
+}
 .feature-name {
     font-weight: 500;
     font-size: 20px;
@@ -115,11 +129,18 @@ ul {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: var(--text-section-color);
+    color: var(--paragraf-color);
     }
 
 /*section skills*/
+
 /*section our team*/
+.team {
+    background-color: #F4F4FD;
+}
+.team-card {
+    background-color: var(--background-color);
+}
 .card-name {
     font-weight: 500;
     font-size: 20px;
@@ -133,7 +154,7 @@ ul {
     line-height: 1.5;
     text-align: center;
     letter-spacing: 0.02em;
-    color: var(--text-section-color);
+    color: var(--paragraf-color);
 }
 /*footer*/
 .footer {
@@ -155,6 +176,11 @@ ul {
     visibility: hidden;
 }
 .button-filters {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
     color: #4D5AE5;
     background: #F4F4FD;
 }
@@ -162,22 +188,7 @@ ul {
 .button-filters:hover,
 .button-filters:focus {
     cursor: pointer;
-    color: #FFFFFF;
+    color: var(--background-color);
     background: var(--accent-color);
 }
-.cards-our {
-    text-decoration: none;
-}
-.cards-name {
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 1.2;
-    letter-spacing: 0.02em;
-    color: var(--text-color);
-}
-.cards-type {
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: var(--text-section-color);
-}
+
