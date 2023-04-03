@@ -6,7 +6,7 @@
 
 }
 
-.body {
+body {
     font-family: "Roboto", sans-serif;
     font-size: normal;
     font-weight: 500;
@@ -32,7 +32,6 @@ ul {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4D5AE5;
-    text-decoration: none;
 }
 .logo-nav {
     color: var(--text-color);
@@ -49,10 +48,12 @@ ul {
     text-decoration: none;
 }
 
-.link-aitem:active,
 .link-aitem:focus,
 .link-aitem:hover {
     color: var(--accent-color);
+}
+.contacts {
+    font-style: normal;
 }
 .contacts-aitem {
     font-weight: 400;
